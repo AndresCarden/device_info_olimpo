@@ -12,4 +12,15 @@ class DeviceIdPlugin {
       throw 'Error al obtener el ID del dispositivo: $e';
     }
   }
+
+  /// Get full device information from native code.
+  static Future<Map<String, dynamic>> getFullDeviceInfo() async {
+    try {
+      final Map<String, dynamic> fullDeviceInfo =
+          Map<String, dynamic>.from(await _channel.invokeMethod('getFullDeviceInfo'));
+      return fullDeviceInfo;
+    } catch (e) {
+      throw 'Error al obtener la información completa del dispositivo: $e';
+    }
+  }
 }
