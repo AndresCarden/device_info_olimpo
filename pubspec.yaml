@@ -1,6 +1,6 @@
 name: device_info_olimpo
 description: "A Flutter plugin to fetch native device information, such as unique device ID."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/AndresCarden/device_info_olimpo
 
 environment:

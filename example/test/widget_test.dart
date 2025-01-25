@@ -13,7 +13,7 @@ import 'package:device_info_olimpo_example/main.dart';
 void main() {
   testWidgets('Verify Platform version', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp(deviceId: '',));
+    await tester.pumpWidget(const MyApp(deviceId: '', fullDeviceInfo: {},));
 
     // Verify that platform version is retrieved.
     expect(
