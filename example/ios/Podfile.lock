@@ -1,0 +1,28 @@
+PODS:
+  - device_info_olimpo (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - device_info_olimpo (from `.symlinks/plugins/device_info_olimpo/ios`)
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+
+EXTERNAL SOURCES:
+  device_info_olimpo:
+    :path: ".symlinks/plugins/device_info_olimpo/ios"
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+
+SPEC CHECKSUMS:
+  device_info_olimpo: bee390e093bd3fed7b7734a7a78a49f8b3831d37
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  integration_test: 13825b8a9334a850581300559b8839134b124670
+
+PODFILE CHECKSUM: 224387d40710675cb8682e000a95767dcf1ad115
+
+COCOAPODS: 1.15.2
